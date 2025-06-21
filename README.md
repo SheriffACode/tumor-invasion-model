@@ -1,4 +1,4 @@
-# Tumor Invasion Model
+# Collective Cancer Invasion Model
 
 This repository provides reproducible code and data for our study on leader–follower heterogeneity in collective tumor invasion using a Cellular Potts Model framework.
 
