@@ -10,7 +10,7 @@ This model runs on **CompuCell3D (v4.6.0)**.
 
 ### ✅ 1. Download & Install CompuCell3D
 
-Visit the [CompuCell3D download page](https://compucell3d.org/Downloads) and install for your OS:
+Visit the [CompuCell3D download page]([https://compucell3d.org/Downloads](https://compucell3d.org/SrcBin)) and install for your OS:
 
 - Windows: Installer available
 - macOS/Linux: Use conda installation
@@ -57,7 +57,7 @@ You can run simulations using:
 ```bash
 cc3d-run -i main_simulation_scan.cc3d
 ```
-where 'main_simulation_scan.cc3d' links teh XML model and the python code
+where 'main_simulation_scan.cc3d' links the XML model and the python code
 ---
 
 ## 🔁 Parameter Space
@@ -79,8 +79,8 @@ Each simulation is indexed by `iteration`, used to load the corresponding parame
 - `Metrics_Data_*.csv`: Invasive/finger area, clusters, defectors
 - `ClusterComposition_*.csv`: Composition of each detached cluster
 - `.png`: Boundary and phenotype plots
-- 'BoundaryData_*.csv' — Tumor boundary coordinates
-- 'TumorLeaderCells_*.csv', 'TumorFollowerCells_*.csv' — leader/follower Spatial positions
+- `BoundaryData_*.csv` — Tumor boundary coordinates
+- `TumorLeaderCells_*.csv`, `TumorFollowerCells_*.csv` — leader/follower Spatial positions
 ---
 
 ## 📜 License
