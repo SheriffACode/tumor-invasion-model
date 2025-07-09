@@ -4,11 +4,11 @@ This repository contains simulation code and data for modeling biophysical regul
 
 ---
 
-## 📦 Installation
+##  Installation
 
 This model runs on **CompuCell3D (v4.6.0)**.
 
-### ✅ 1. Download & Install CompuCell3D
+### 1. Download & Install CompuCell3D
 
 Visit the [CompuCell3D download page]([https://compucell3d.org/Downloads](https://compucell3d.org/SrcBin)) and install for your OS:
 
@@ -22,7 +22,7 @@ conda create -n cc3d-env -c compucell3d -c conda-forge compucell3d=4.3.1
 conda activate cc3d-env
 ```
 
-### ✅ 2. Clone this Repository
+### 2. Clone this Repository
 
 ```bash
 git clone https://github.com/SheriffACode/tumor-invasion-model.git
@@ -31,7 +31,7 @@ cd tumor-invasion-model
 
 ---
 
-## 🧪 Running the Simulation
+##  Running the Simulation
 
 The model uses multiple `Steppables` defined in `CCIecmSteppables.py` and can be launched using:
 
@@ -60,7 +60,7 @@ cc3d-run -i main_simulation_scan.cc3d
 where 'main_simulation_scan.cc3d' links the XML model and the python code
 ---
 
-## 🔁 Parameter Space
+## Parameter Space
 
 ```python
 parameter_values = {
@@ -74,7 +74,7 @@ Each simulation is indexed by `iteration`, used to load the corresponding parame
 
 ---
 
-## 📁 Output Data
+## Output Data
 
 - `Metrics_Data_*.csv`: Invasive/finger area, clusters, defectors
 - `ClusterComposition_*.csv`: Composition of each detached cluster
@@ -83,20 +83,20 @@ Each simulation is indexed by `iteration`, used to load the corresponding parame
 - `TumorLeaderCells_*.csv`, `TumorFollowerCells_*.csv` — leader/follower Spatial positions
 ---
 
-## 📜 License
+## License
 
 MIT License
 
 ---
 
-## 📬 Contact
+## Contact
 For questions and enquiries, please reach out via sheriffakeeb@gmail.com
 
 
 
 ---
 
-## 🧬 Model Description
+## Model Description
 
 This model simulates **2D tumor invasion dynamics** using a **Cellular Potts Model (CPM)** in CompuCell3D. The simulation captures emergent behaviors driven by **biophysical heterogeneity** and **regulatory mechanisms** between distinct cancer cell subtypes.
 
@@ -115,7 +115,7 @@ This model simulates **2D tumor invasion dynamics** using a **Cellular Potts Mod
 
 ---
 
-### 🔧 XML Configuration Highlights
+### XML Configuration Highlights
 
 | Feature                     | Setting                                                  |
 |----------------------------|-----------------------------------------------------------|
